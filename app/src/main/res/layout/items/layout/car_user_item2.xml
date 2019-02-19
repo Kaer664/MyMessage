@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:descendantFocusability = "blocksDescendants"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/num"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        android:text="1"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/autoLog"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/licensePlate"
+            android:textColor="#000"
+            android:text="辽S66663"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="车主：张三"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:textColor="#000"
+        android:text="余额：" />
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/money"
+        android:textColor="#000"
+        android:text="1000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="元" />
+    
+    <CheckBox
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/checkBox"
+
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/btnRecharge"
+        android:text="充值"
+        android:background="@drawable/button_round"
+        android:layout_marginLeft="30dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lucky.competition.CompetitionIntent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO1. 编码实现个人车辆ETC账户管理功能"
+                android:id="@+id/btnC1"
+                android:onClick="intent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO2.账单管理界面"
+                android:id="@+id/btnC2"
+                android:onClick="intent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO3.红绿灯管理"
+                android:id="@+id/btnC3"
+                android:onClick="intent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测试数据库"
+                android:id="@+id/btnC4"
+                android:onClick="intent"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跳转到显示数据库界面"
+                android:id="@+id/btnC5"
+                android:onClick="intent"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跳转到环境界面"
+                android:id="@+id/btnC6"
+                android:onClick="intent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跳转到车管局界面"
+                android:id="@+id/btnC7"
+                android:onClick="intent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跳转到公交查询系统"
+                android:id="@+id/btnC8"
+                android:onClick="intent"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

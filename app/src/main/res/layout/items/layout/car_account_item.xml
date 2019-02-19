@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="70dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:layout_alignBaseline="@+id/tvLicensePlate"
+            android:text="   车牌号   :" />
+        <TextView
+            android:layout_width="150dp"
+            android:id="@+id/tvLicensePlate"
+            android:layout_toRightOf="@+id/tv1"
+            android:text="辽A10003 辽A10004"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="70dp"
+            android:id="@+id/tv2"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etMoney"
+            android:text="充值金额  :" />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etMoney"
+            android:hint="1-999"
+            android:layout_toRightOf="@id/tv2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/etMoney"
+            android:textColor="#000"
+            android:layout_alignBaseline="@+id/etMoney"
+            android:text="元"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lucky.mymessage">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问互联网权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IntentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".AddDataGrid" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SpinnerDemoActivity" />
+        <activity android:name=".ProgressDialogActivity" />
+        <activity android:name=".BaseAdapterActivity" />
+        <activity android:name=".SpinnerTest" />
+        <activity android:name="com.example.lucky.life.ResultTestActivity" />
+        <activity android:name="com.example.lucky.life.SecondActivity" />
+        <activity android:name="com.example.lucky.notification.NotificationActivity" />
+        <activity android:name="com.example.lucky.notification.DemoActivity" />
+        <activity android:name="com.example.lucky.draw.DemoDrawActivity" />
+        <activity android:name="com.example.lucky.draw.CompositeControlActivity" />
+        <activity android:name="com.example.lucky.page.ViewPageActivity" />
+        <activity android:name="com.example.lucky.life.Lifectivity" />
+        <activity android:name="com.example.lucky.competition.CompetitionIntent" />
+        <activity android:name="com.example.lucky.competition.ETCAccountActivity" />
+        <activity android:name="com.example.lucky.competition.BillActivity" />
+        <activity android:name="com.example.lucky.competition.TrafficTimeActivity" />
+        <activity android:name="com.example.lucky.competition.TActivity" />
+        <activity android:name="com.example.lucky.competition.SQLAccountActivity" />
+        <activity android:name="com.example.lucky.competition.EnvironmentalIndicatorsActivity" />
+        <activity android:name="com.example.lucky.competition.CarBureauActivity" />
+        <activity android:name="com.example.lucky.competition.PublicTransportQueryActivity"></activity>
+    </application>
+
+</manifest>
